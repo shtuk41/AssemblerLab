@@ -6,6 +6,7 @@ _start:
 
 .global odd
 odd:
+	//in ARM the following instruction tests bit #1 to be equal 0
 	tst r0, #1
     bne oddf
     mov r0, #0
