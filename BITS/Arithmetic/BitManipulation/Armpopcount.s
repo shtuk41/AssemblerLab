@@ -22,6 +22,7 @@ increment:
 	add r1, r1, #1
     
 shift:
+	// shift right and updates flags
 	lsrs r0, r0, #1
     beq done
     b process	
