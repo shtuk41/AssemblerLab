@@ -1,3 +1,5 @@
+//write a function that returns the bitwise inversion of its parameter
+
 .global _start
 _start:
     mov r0, #1
